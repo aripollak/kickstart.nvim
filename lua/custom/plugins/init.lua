@@ -1,5 +1,6 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
+vim.o.inccommand = 'split'
+
+vim.keymap.set('n', '<C-S>', '<Esc>:update<CR>')
+vim.keymap.set('i', '<C-S>', '<Esc>:update<CR>a', {remap = false})
+
 return {}

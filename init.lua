@@ -266,7 +266,28 @@ require('lazy').setup({
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
   { import = 'custom.plugins' },
-}, {})
+  },
+  -- lazy.nvim options
+  {
+    ui = {
+      icons = {
+        cmd = "⌘",
+        config = "🛠",
+        event = "📅",
+        ft = "📂",
+        init = "⚙",
+        keys = "🗝",
+        plugin = "🔌",
+        runtime = "💻",
+        require = "🌙",
+        source = "📄",
+        start = "🚀",
+        task = "📌",
+        lazy = "💤 ",
+      }
+    }
+  }
+)
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
@@ -567,15 +588,33 @@ local servers = {
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
-  -- html = { filetypes = { 'html', 'twig', 'hbs'} },
+  html = { filetypes = { 'html', 'twig', 'hbs'} },
 
   lua_ls = {
     Lua = {
       workspace = { checkThirdParty = false },
       telemetry = { enable = false },
       -- NOTE: toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-      -- diagnostics = { disable = { 'missing-fields' } },
+      diagnostics = { disable = { 'missing-fields' } },
     },
+  },
+
+  pyright = {
+    python = {
+      analysis = {
+        typeCheckingMode = "off"
+      },
+      pythonPath = "python3",
+    }
+  },
+  terraformls = {},
+  tsserver = {
+    javascript = {
+      format = { enable = false }
+    },
+    typescript = {
+      format = { enable = false }
+    }
   },
 }
 
