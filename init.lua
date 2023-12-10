@@ -268,25 +268,7 @@ require('lazy').setup({
   { import = 'custom.plugins' },
   },
   -- lazy.nvim options
-  {
-    ui = {
-      icons = {
-        cmd = "⌘",
-        config = "🛠",
-        event = "📅",
-        ft = "📂",
-        init = "⚙",
-        keys = "🗝",
-        plugin = "🔌",
-        runtime = "💻",
-        require = "🌙",
-        source = "📄",
-        start = "🚀",
-        task = "📌",
-        lazy = "💤 ",
-      }
-    }
-  }
+  {}
 )
 
 -- [[ Setting options ]]

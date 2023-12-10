@@ -1,0 +1,4 @@
+- runtime lspconfig changes?
+- pyright auto-detect venv
+- show full-ishpath to filename in lualine
+- copilot
