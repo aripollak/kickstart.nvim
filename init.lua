@@ -584,9 +584,10 @@ local servers = {
 
   pyright = {
     python = {
-      analysis = {
-        typeCheckingMode = "off"
-      },
+      -- -- do this if we're also linting with mypy
+      -- analysis = {
+      --   typeCheckingMode = "off"
+      -- },
       pythonPath = "python3",
     }
   },

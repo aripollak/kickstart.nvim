@@ -1,4 +1,2 @@
-- runtime lspconfig changes?
-- pyright auto-detect venv
-- show full-ishpath to filename in lualine
-- copilot
+- runtime lspconfig changes, maybe with nlsp-settings
+- formatter/linter integration, maybe with none-lsp?
