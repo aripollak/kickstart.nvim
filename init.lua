@@ -584,7 +584,7 @@ local servers = {
 
   pyright = {
     python = {
-      -- -- do this if we're also linting with mypy
+      -- -- uncomment this if also linting with mypy
       -- analysis = {
       --   typeCheckingMode = "off"
       -- },
@@ -593,6 +593,7 @@ local servers = {
   },
   terraformls = {},
   tsserver = {
+    -- prefer prettier
     javascript = {
       format = { enable = false }
     },
