@@ -16,7 +16,7 @@ return {
       -- debug = true,
       -- Anything here won't be installed automatically, since I only want to enable it if it's installed per project
       sources = {
-        null_ls.builtins.formatting.black,
+        -- null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.prettier,
       }
     })

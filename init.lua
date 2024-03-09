@@ -591,6 +591,8 @@ local servers = {
       pythonPath = "python3",
     }
   },
+
+  ruff_lsp = {},
   terraformls = {},
   tsserver = {
     -- prefer prettier
