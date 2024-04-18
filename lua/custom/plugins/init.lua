@@ -1,3 +1,4 @@
+# Customize keymaps and options here
 vim.o.inccommand = 'split'
 vim.o.title = true
 
