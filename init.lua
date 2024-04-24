@@ -600,24 +600,13 @@ require('lazy').setup({
               -- analysis = {
               --   typeCheckingMode = "off"
               -- },
-              pythonPath = 'python3',
             },
           },
         },
 
         ruff_lsp = {},
         terraformls = {},
-        tsserver = {
-          settings = {
-            -- prefer prettier
-            javascript = {
-              format = { enable = false },
-            },
-            typescript = {
-              format = { enable = false },
-            },
-          },
-        },
+        tsserver = {},
       }
 
       -- Ensure the servers and tools above are installed
