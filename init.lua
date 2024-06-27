@@ -598,8 +598,10 @@ require('lazy').setup({
             python = {
               -- -- uncomment this if also linting with mypy
               -- analysis = {
-              --   typeCheckingMode = "off"
+              --   typeCheckingMode = 'off'
               -- },
+              venvPath = '.',
+              venv = 'venv',
             },
           },
         },
