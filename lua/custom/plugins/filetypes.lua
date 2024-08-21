@@ -1,6 +1,6 @@
 vim.cmd.autocmd('FileType', 'css,html,scss', 'setlocal et sts=2 sw=2')
+vim.cmd.autocmd('FileType', 'gitcommit', ' setlocal spell sts=2 sw=2 tw=72')
 -- autocmd FileType debchangelog setlocal et nobackup spell sts=2 indentexpr=4
--- autocmd FileType gitcommit setlocal nobackup spell sts=2 sw=2 tw=72
 -- autocmd FileType javascript,javascriptreact,typescript,typescriptreact setlocal et sts=2 sw=2
 -- autocmd FileType json setlocal et sts=2 sw=2
 -- autocmd FileType lua setlocal et sts=2 sw=2
