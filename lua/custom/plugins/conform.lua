@@ -1,6 +1,7 @@
 -- override options from main init.lua
 return {
   'stevearc/conform.nvim',
+  version = '*',
   opts = {
     format_on_save = function(bufnr)
       -- Disable "format_on_save lsp_fallback" for languages that don't

@@ -648,7 +648,7 @@ require('lazy').setup({
 
         ruff_lsp = {},
         terraformls = {},
-        tsserver = {},
+        ts_ls = {},
       }
 
       -- Ensure the servers and tools above are installed
