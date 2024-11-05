@@ -646,7 +646,7 @@ require('lazy').setup({
           },
         },
 
-        ruff_lsp = {},
+        ruff = {},
         terraformls = {},
         ts_ls = {},
       }
