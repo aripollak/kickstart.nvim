@@ -656,6 +656,16 @@ require('lazy').setup({
           },
         },
 
+        yamlls = {
+          settings = {
+            yaml = {
+              schemas = {
+                ['https://json.schemastore.org/github-workflow.json'] = '/.github/workflows/*',
+              },
+            },
+          },
+        },
+
         ruff = {},
         terraformls = {},
         ts_ls = {},
