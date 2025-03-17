@@ -645,8 +645,11 @@ require('lazy').setup({
 
         pyright = {
           settings = {
+            pyright = {
+              disableTaggedHints = true,
+            },
             python = {
-              -- -- uncomment this if also linting with mypy
+              -- uncomment this if also linting with mypy
               -- analysis = {
               --   typeCheckingMode = 'off'
               -- },
