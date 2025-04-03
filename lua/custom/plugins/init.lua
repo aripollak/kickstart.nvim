@@ -1,4 +1,6 @@
 # Customize keymaps and options here
+vim.o.grepformat = '%f:%l:%c:%m'
+vim.o.grepprg = 'rg --vimgrep'
 vim.o.inccommand = 'split'
 vim.o.title = true
 

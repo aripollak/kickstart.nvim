@@ -19,18 +19,17 @@ return {
     --   }
     --   local lsp_format_opt
     --   if disable_filetypes[vim.bo[bufnr].filetype] then
-    --     lsp_format_opt = 'never'
+    --     return nil
     --   else
-    --     lsp_format_opt = 'fallback'
+    --     return {
+    --       timeout_ms = 500,
+    --       lsp_format = 'fallback',
+    --     }
     --   end
-    --   return {
-    --     timeout_ms = 500,
-    --     lsp_format = lsp_format_opt,
-    --   }
     -- end,
-
     -- Disable format-on-save entirely while still allowing Format command
     format_on_save = function(bufnr) end,
+
     formatters_by_ft = {
       lua = { 'stylua' },
       javascript = { 'prettier' },
